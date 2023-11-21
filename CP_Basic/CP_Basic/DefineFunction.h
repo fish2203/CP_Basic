@@ -1,0 +1,9 @@
+#pragma once
+//함수 원형
+void CallFunction();
+void CPPBasic();
+void Variable();
+void Calculation();
+void Increment();
+void CompareBasic();
+void Logical();
