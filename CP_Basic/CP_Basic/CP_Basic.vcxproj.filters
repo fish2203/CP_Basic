@@ -27,6 +27,12 @@
     <ClCompile Include="CH03_Calculation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH04_Condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CH05_Iteration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IO.h">
