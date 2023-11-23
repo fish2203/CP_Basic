@@ -11,8 +11,6 @@ void CPPBasic() {
 	cout << "C++ Programming\n";
 	cout << 500 << endl; // endl : endline
 	cout << NUMBER + 50 << endl;
-
-
 }
 
 // 비트와 바이트에 대한 이해

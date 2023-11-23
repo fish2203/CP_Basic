@@ -132,7 +132,15 @@
     <ClCompile Include="CH03_Calculation.cpp" />
     <ClCompile Include="CH04_Condition.cpp" />
     <ClCompile Include="CH05_Iteration.cpp" />
+    <ClCompile Include="Ch06_Function.cpp" />
+    <ClCompile Include="CH07_VarScope.cpp" />
+    <ClCompile Include="CH08_Array.cpp" />
+    <ClCompile Include="CH09_Structure.cpp" />
+    <ClCompile Include="CH10_Enumeration.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
+    <ClCompile Include="Ex01_Flow.cpp" />
+    <ClCompile Include="Ex02_Array.cpp" />
+    <ClCompile Include="Ex03_Function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DefineFunction.h" />
