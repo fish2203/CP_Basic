@@ -10,7 +10,10 @@ void CallFunction();
 int main()
 {
 	//함수 호출
-	Average();
+	// cout << HomeWorkMore03();
+	//cout << HomeWorkMore05();
+	//cout << HomeWorkMore06();
+	InputArraySize();
 }
 
 //함수 정의 : 메인함수 뒤에 정의해야함

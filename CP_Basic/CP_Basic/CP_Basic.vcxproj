@@ -137,10 +137,13 @@
     <ClCompile Include="CH08_Array.cpp" />
     <ClCompile Include="CH09_Structure.cpp" />
     <ClCompile Include="CH10_Enumeration.cpp" />
+    <ClCompile Include="CH12_Dynamic.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
     <ClCompile Include="Ex03_Function.cpp" />
+    <ClCompile Include="HomeWork01_Basic.cpp" />
+    <ClCompile Include="HomWork01_More.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DefineFunction.h" />
