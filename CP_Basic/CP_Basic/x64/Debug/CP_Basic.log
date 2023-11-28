@@ -1,5 +1,6 @@
-﻿  CH12_Dynamic.cpp
-C:\Users\User\Documents\CP_Basic\CP_Basic\CP_Basic\CH12_Dynamic.cpp(51,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  CP_Basic.cpp
+﻿  ScoreClass.cpp
+  ScoreClassSet.cpp
+C:\Users\User\Documents\CP_Basic\CP_Basic\CP_Basic\ScoreClassSet.cpp(52,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Documents\CP_Basic\CP_Basic\CP_Basic\ScoreClassSet.cpp(57,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Generating Code...
   CP_Basic.vcxproj -> C:\Users\User\Documents\CP_Basic\CP_Basic\x64\Debug\CP_Basic.exe

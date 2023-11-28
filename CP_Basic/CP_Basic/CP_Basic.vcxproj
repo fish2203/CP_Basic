@@ -138,16 +138,26 @@
     <ClCompile Include="CH09_Structure.cpp" />
     <ClCompile Include="CH10_Enumeration.cpp" />
     <ClCompile Include="CH12_Dynamic.cpp" />
+    <ClCompile Include="CH13-3_This.cpp" />
+    <ClCompile Include="CH13_1_ClassMethod.cpp" />
+    <ClCompile Include="CH13_2_Airplain.cpp" />
+    <ClCompile Include="CH13_Class.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
     <ClCompile Include="Ex03_Function.cpp" />
     <ClCompile Include="HomeWork01_Basic.cpp" />
     <ClCompile Include="HomWork01_More.cpp" />
+    <ClCompile Include="ScoreClass.cpp" />
+    <ClCompile Include="ScoreClassSet.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch13_1_ClassHeader.h" />
+    <ClInclude Include="Ch13_2_AirPlain.h" />
+    <ClInclude Include="Ch13_3_This.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="IO.h" />
+    <ClInclude Include="ScoreClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -57,3 +57,8 @@ int HomeWorkMore06();
 void DynamicAlloc();
 void DynamicArray();
 void InputArraySize();
+void DefineClass();
+void PrintPlayer();
+void PrintAirplain();
+void DynamicAirplain();
+void CalculateScore();

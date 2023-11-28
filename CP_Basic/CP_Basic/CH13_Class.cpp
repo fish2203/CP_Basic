@@ -1,0 +1,85 @@
+#include "IO.h"
+#include "Ch13_1_ClassHeader.h"
+#include "Ch13_2_AirPlain.h"
+
+/*
+	정보 은닉: 데이터 변수를 어디에서 사용할지 사용 범위 결정
+
+	클레스 내부에서만 사용 가능: private
+	클래스 외부에서도 사용 가능: public
+	상속된 클래스에서 사용 가능: protected
+
+	private, public, protected 키워드를 사용해서 범위 결정
+	키워드를 사용하지 않으면 기본 => private
+*/
+
+class Car {
+public: 
+	char Size = NULL;
+	char Color = NULL;
+	float Weight = 0.0f;
+
+	void MoveFoward() {
+		cout << "Move Forward" << endl;
+	}
+
+	void MoveBackward() {
+		cout << "Move Backward" << endl;
+	}
+
+	void Break() {
+		cout << "Break" << endl;
+	}
+};
+
+void DefineClass() {
+	Car Ray;
+
+	Ray.Size = 'S';
+
+	Ray.MoveFoward();
+}
+
+void PrintPlayer() {
+	Player Pino;
+
+	Pino.SetData();
+
+	Pino.PrintItemNumber();
+	Pino.PrintEnergy();
+	Pino.PrintWeapon();
+	
+	Pino.ItemNumber = 8;
+}
+
+void PrintAirplain() {
+	Airplain F16;
+
+	F16.SetEnergy(100);
+	F16.SetBomb(10);
+
+	F16.PrintEnergy();
+	F16.PrintBomb();
+
+	F16.SetEnergy(F16.GetEnergy() - 30);
+	F16.SetBomb(F16.GetBomb() - 3);
+
+	F16.PrintEnergy();
+	F16.PrintBomb();
+
+	Airplain KF21(100, 20);
+
+	KF21.PrintEnergy();
+	KF21.PrintBomb();
+}
+
+void DynamicAirplain() {
+	Airplain Boeing(300, 20);
+
+	Boeing.PrintEnergy();
+
+	//동적생성
+	Airplain* A10 = new Airplain;
+
+	A10->PrintEnergy(); // A10.PrintEnergy();는 오류
+}
