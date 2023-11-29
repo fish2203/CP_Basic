@@ -13,7 +13,7 @@ int main()
 	// cout << HomeWorkMore03();
 	//cout << HomeWorkMore05();
 	//cout << HomeWorkMore06();
-	CalculateScore();
+	CRObotClass();
 }
 
 //함수 정의 : 메인함수 뒤에 정의해야함

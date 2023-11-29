@@ -1,7 +1,12 @@
 #include "ScoreClass.h"
 #include "IO.h"
 
-Student::Student() {}
+Student::Student() {
+	this->Name = NULL;
+	this->Korean = 0;
+	this->English = 0;
+	this->Math = 0;
+}
 Student::Student(char Name, int Korean, int English, int Math) {
 	this->Name = Name;
 	this->Korean = Korean;
@@ -10,6 +15,13 @@ Student::Student(char Name, int Korean, int English, int Math) {
 }
 
 Student::~Student() {}
+
+void Student::Set(char Name, int Korean, int English, int Math) {
+	this->Name = Name;
+	this->Korean = Korean;
+	this->English = English;
+	this->Math = Math;
+}
 
 void Student::SetName(char Name) {
 	this->Name = Name;

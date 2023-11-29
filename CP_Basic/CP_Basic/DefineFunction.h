@@ -62,3 +62,8 @@ void PrintPlayer();
 void PrintAirplain();
 void DynamicAirplain();
 void CalculateScore();
+void ArrayClass();
+void StringClass();
+void VectorClass();
+void OverloadingFunction();
+void CRObotClass();

@@ -12,6 +12,7 @@ public:
 	Student();
 	Student(char Name, int Korean, int English, int Math);
 	~Student();
+	void Set(char Name, int Korean, int English, int Math);
 	void SetName(char Name);
 	char GetName();
 	void SetKorean(int Score);
