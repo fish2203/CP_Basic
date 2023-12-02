@@ -147,6 +147,8 @@
     <ClCompile Include="CH16_VectorClass.cpp" />
     <ClCompile Include="CH17-1_OverloadingClass.cpp" />
     <ClCompile Include="CH17_Overloading.cpp" />
+    <ClCompile Include="Ch18_Inheritance.cpp" />
+    <ClCompile Include="Ch18_InheritanceMethod.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
@@ -165,6 +167,7 @@
     <ClInclude Include="Ch13_2_AirPlain.h" />
     <ClInclude Include="Ch13_3_This.h" />
     <ClInclude Include="Ch17-1_OverloadingClass.h" />
+    <ClInclude Include="Ch18_Inheritance.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex08_MemberClass.h" />
     <ClInclude Include="Exo7-1_RobotClass.h" />
