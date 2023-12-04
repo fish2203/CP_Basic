@@ -68,3 +68,4 @@ void VectorClass();
 void OverloadingFunction();
 void CRObotClass();
 void Inheritance();
+void PrintStudent();

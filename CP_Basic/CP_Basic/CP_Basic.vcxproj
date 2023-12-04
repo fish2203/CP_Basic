@@ -156,6 +156,8 @@
     <ClCompile Include="Ex07-1_RobotMethod.cpp" />
     <ClCompile Include="Ex07_Robot.cpp" />
     <ClCompile Include="Ex08-1_MemberClassMethod.cpp" />
+    <ClCompile Include="Ex09_Person.cpp" />
+    <ClCompile Include="Ex09_PersonMethod.cpp" />
     <ClCompile Include="Exo8-2_Member.cpp" />
     <ClCompile Include="HomeWork01_Basic.cpp" />
     <ClCompile Include="HomWork01_More.cpp" />
@@ -170,6 +172,7 @@
     <ClInclude Include="Ch18_Inheritance.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex08_MemberClass.h" />
+    <ClInclude Include="Ex09_Person.h" />
     <ClInclude Include="Exo7-1_RobotClass.h" />
     <ClInclude Include="IO.h" />
     <ClInclude Include="ScoreClass.h" />
